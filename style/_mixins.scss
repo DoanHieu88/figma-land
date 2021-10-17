@@ -1,0 +1,29 @@
+@mixin absolute($direction : 'center') {
+    position: absolute;
+    
+    @if $direction == 'center'{
+        left: 50%;
+        top:50%;
+        transform: translate(-50%);
+    }
+    @if $direction == 'left' {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @if $direction == 'top'{
+        top :50%;
+        transform:translateY(-50%);
+    }
+
+}
+
+@mixin flex($content : 'between') {
+    display: flex;
+    flex-direction: row;
+    @if $content == 'between'{
+        justify-content: space-between;
+    }
+    @if $content == 'around'{
+        justify-content: space-around;
+    }
+}

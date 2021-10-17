@@ -1,0 +1,234 @@
+* {
+  background-color: #fff;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1777px;
+  height: 1042px;
+  background-image: url(../img/top.png);
+  background-repeat: no-repeat;
+}
+
+.desktop-navbar {
+  width: 1210px;
+  height: 156px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  margin-left: 282px;
+}
+
+.desktop-navbar .desktop-menu {
+  width: 437px;
+  height: 48px;
+  background: transparent;
+  margin: 63px 0 63px 50px;
+}
+
+.desktop-navbar .desktop-menu .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: inherit;
+}
+
+.desktop-navbar .desktop-menu .nav-list li {
+  list-style: none;
+  background-color: inherit;
+  width: 63px;
+  height: 48px;
+  padding: 10px;
+}
+
+.desktop-navbar .desktop-menu .nav-list li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  background-color: inherit;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.desktop-navbar .center {
+  background: transparent;
+  width: 246px;
+  height: 78px;
+  position: relative;
+  top: 43px;
+  right: 125px;
+}
+
+.desktop-navbar .center .content-logo {
+  width: 206px;
+  height: 78px;
+  background: transparent;
+  color: #fff;
+  background: url(../img/dark.png);
+}
+
+.desktop-navbar .right {
+  background: transparent;
+  width: 171px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.desktop-navbar .right .action {
+  background: inherit;
+}
+
+.desktop-navbar .right .action img {
+  background: inherit;
+  padding: 10px;
+}
+
+.content-lightbar {
+  width: 1437px;
+  height: 885px;
+  background: transparent;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  bottom: 130px;
+}
+
+.content-lightbar .container1 {
+  background: transparent;
+  width: 826px;
+  height: 335px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-bottom: 80px;
+}
+
+.content-lightbar .container1 h1 {
+  font-family: Graphik;
+  color: #fff;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  background: transparent;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.content-lightbar .container1 h4 {
+  width: 766px;
+  height: 80px;
+  background: transparent;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.content-lightbar button {
+  background-color: #2091F9;
+  padding: 16px 10px;
+  width: 236px;
+  height: 52px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 90%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: none;
+}
+
+.feature {
+  width: 1777px;
+  height: 1361px;
+  text-align: center;
+}
+
+.feature .text-content {
+  width: 552px;
+  height: 182px;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+}
+
+.feature .text-content h2 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  padding-bottom: 27px;
+  text-align: center;
+}
+
+.feature .text-content h4 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* second text */
+  color: #374754;
+}
+
+.feature .item {
+  width: 865px;
+  height: 257px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+}
+
+.feature .item .box {
+  width: 255px;
+  height: 257px;
+  padding-left: 62px;
+}
+/*# sourceMappingURL=index.css.map */
