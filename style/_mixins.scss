@@ -4,7 +4,7 @@
     @if $direction == 'center'{
         left: 50%;
         top:50%;
-        transform: translate(-50%);
+        transform: translate(-50% ,-50%);
     }
     @if $direction == 'left' {
         left: 50%;

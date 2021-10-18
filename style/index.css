@@ -171,6 +171,7 @@ header {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   border: none;
+  font-weight: 400;
 }
 
 .feature {
@@ -191,11 +192,12 @@ header {
 .feature .text-content h2 {
   font-family: Graphik;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 48px;
   line-height: 55px;
   padding-bottom: 27px;
   text-align: center;
+  color: #252B42;
 }
 
 .feature .text-content h4 {
@@ -224,11 +226,342 @@ header {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   left: 50%;
+  top: 60px;
 }
 
 .feature .item .box {
   width: 255px;
   height: 257px;
-  padding-left: 62px;
+  margin-left: 40px;
+}
+
+.feature .item .box svg {
+  padding: 17px;
+}
+
+.feature .item .box h3 {
+  padding: 20px 0;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+  text-align: center;
+  letter-spacing: 0.1px;
+  /* text */
+  color: #252B42;
+}
+
+.feature .item .box p {
+  width: 231px;
+  height: 100px;
+  padding: 0 10px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* second text */
+  color: #374754;
+}
+
+.feature .screen-content {
+  width: 1177px;
+  height: 698px;
+  margin-top: 132px;
+  background-image: url(../img/screen.png);
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 45pxs;
+}
+
+.feature .screen-content #play-btn {
+  background-color: #2091F9;
+  width: 187px;
+  height: 187px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.feature .screen-content #play-btn svg {
+  background-color: #2091F9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero-light4 {
+  width: 1777px;
+  height: 924px;
+  position: relative;
+}
+
+.hero-light4 .content {
+  width: 1244px;
+  height: 472px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero-light4 .content .frame1 {
+  width: 532px;
+  height: 357px;
+  text-align: start;
+  margin-right: 50px;
+}
+
+.hero-light4 .content .frame1 h2 {
+  width: 335px;
+  height: 110px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  /* or 115% */
+  padding: 10px 0;
+  text-align: start;
+  letter-spacing: 0.2px;
+  /* text */
+  color: #252B42;
+}
+
+.hero-light4 .content .frame1 h4 {
+  margin-top: 20px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+  padding: 10px 0;
+  text-align: start;
+  letter-spacing: 0.2px;
+  /* second text */
+  color: #374754;
+}
+
+.hero-light4 .content .frame1 button {
+  background-color: #2091F9;
+  padding: 16px 10px;
+  width: 236px;
+  height: 52px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  margin-top: 130px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.hero-light4 .content .frame2 img {
+  width: 625px;
+  height: 350px;
+}
+
+.desktop-light-cta4 {
+  margin: -30px auto;
+  width: 1440px;
+  height: 725px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.desktop-light-cta4 .left-container {
+  width: 854px;
+  height: 532px;
+}
+
+.desktop-light-cta4 .left-container img {
+  width: 667px;
+  height: 514px;
+}
+
+.desktop-light-cta4 .right-container {
+  margin-right: 20px;
+  width: 554px;
+  height: 500px;
+}
+
+.desktop-light-cta4 .right-container .text-content {
+  width: 324px;
+  height: 156px;
+}
+
+.desktop-light-cta4 .right-container .text-content h3 {
+  text-align: left;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.1px;
+  /* text */
+  color: #252B42;
+  margin-bottom: 7px;
+}
+
+.desktop-light-cta4 .right-container .text-content h2 {
+  padding: 10px 0;
+  width: 324px;
+  height: 110px;
+  text-align: left;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  /* or 115% */
+  letter-spacing: 0.2px;
+  /* text */
+  color: #252B42;
+}
+
+.desktop-light-cta4 .right-container .action-content {
+  width: 447px;
+  height: 199px;
+  margin-top: 25px;
+  margin-left: 117px;
+}
+
+.desktop-light-cta4 .right-container .action-content h3 {
+  text-align: left;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.1px;
+  /* text */
+  color: #252B42;
+}
+
+.desktop-light-cta4 .right-container .action-content p {
+  text-align: left;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  letter-spacing: 0.2px;
+  /* second text */
+  color: #374754;
+}
+
+.desktop-light-cta4 .right-container .action-content .mail-input {
+  margin-right: 5px;
+  width: 457px;
+  height: 126px;
+}
+
+.desktop-light-cta4 .right-container .action-content input {
+  margin: 37px 5px 0 0;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+  width: 273px;
+  height: 54px;
+}
+
+.desktop-light-cta4 .right-container .action-content input::-webkit-input-placeholder {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.1px;
+  /* Background */
+  color: #18171D;
+}
+
+.desktop-light-cta4 .right-container .action-content input:-ms-input-placeholder {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.1px;
+  /* Background */
+  color: #18171D;
+}
+
+.desktop-light-cta4 .right-container .action-content input::-ms-input-placeholder {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.1px;
+  /* Background */
+  color: #18171D;
+}
+
+.desktop-light-cta4 .right-container .action-content input::placeholder {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.1px;
+  /* Background */
+  color: #18171D;
+}
+
+.desktop-light-cta4 .right-container .action-content button {
+  border: none;
+  background: #2091F9;
+  border-radius: 35px;
+  width: 172px;
+  height: 58px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.2px;
+  /* Light text */
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=index.css.map */
